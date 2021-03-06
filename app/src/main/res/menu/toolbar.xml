@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    always永远显示，空间不足不显示-->
+    <item android:id="@+id/tool_1"
+        android:icon="@drawable/a"
+        app:showAsAction="always"
+        android:title="按钮1"
+        />
+<!--    ifRoom空间够显示，不够显示菜单中-->
+    <item android:id="@+id/tool_2"
+        android:icon="@drawable/a2"
+        app:showAsAction="ifRoom"
+        android:title="按钮2"/>
+<!--    never永远显示菜单中-->
+    <item android:id="@+id/tool_3"
+        android:icon="@drawable/a3"
+        app:showAsAction="never"
+        android:title="按钮3"/>
+
+</menu>
